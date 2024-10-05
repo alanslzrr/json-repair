@@ -1,0 +1,8 @@
+build
+coverage
+pre-commit
+pytest
+pytest-benchmark
+pytest-cov
+Flask==2.0.1
+Flask-CORS==3.0.10
