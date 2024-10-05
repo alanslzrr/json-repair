@@ -1,0 +1,2621 @@
+{
+   "Acoustical Quantities":{
+      "Sound Level - Measuring Equipment":[
+         {
+            "range":"74 dB",
+            "frequency":"(0.125 to 4) kHz",
+            "cmc":"0.32 dB",
+            "comments":"Sound level calibrator"
+         },
+         {
+            "range":"84 dB",
+            "frequency":"(0.125 to 4) kHz",
+            "cmc":"0.33 dB",
+            "comments":"Sound level calibrator"
+         },
+         {
+            "range":"94 dB",
+            "frequency":"(0.125 to 4) kHz",
+            "cmc":"0.33 dB",
+            "comments":"Sound level calibrator"
+         },
+         {
+            "range":"104 dB",
+            "frequency":"(0.125 to 4) kHz",
+            "cmc":"0.33 dB",
+            "comments":"Sound level calibrator"
+         },
+         {
+            "range":"114 dB",
+            "frequency":"(0.125 to 2) kHz",
+            "cmc":"0.3 dB",
+            "comments":"Sound level calibrator"
+         },
+         {
+            "range":"114 dB",
+            "frequency":"(> 2 to 4) kHz",
+            "cmc":"0.32 dB",
+            "comments":"Sound level calibrator"
+         }
+      ],
+      "Acoustical Calibrator":[
+         {
+            "range":"(74 to 114) dB",
+            "frequency":"(1 kHz)",
+            "cmc":"0.33 dB",
+            "comments":"Sound level meter"
+         }
+      ]
+   },
+   "Chemical":{
+      "Conductivity - Measuring Equipment":{
+         "Fixed Points":[
+            {
+               "range":"(0 to 1) µS/cm",
+               "cmc":"0.31 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"5 µS/cm +/-10%",
+               "cmc":"0.31 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈25 µS/cm",
+               "cmc":"0.41 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈50 µS/cm",
+               "cmc":"0.62 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈100 µS/cm",
+               "cmc":"0.83 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈147 µS/cm",
+               "cmc":"2.9 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈1000 µS/cm",
+               "cmc":"3.2 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈1412 µS/cm",
+               "cmc":"2.2 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈10 mS/cm",
+               "cmc":"32 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈100 mS/cm",
+               "cmc":"290 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈150 mS/cm",
+               "cmc":"600 µS/cm",
+               "comments":"Conductivity standard solution"
+            },
+            {
+               "range":"≈200 mS/cm",
+               "cmc":"600 µS/cm",
+               "comments":"Conductivity standard solution"
+            }
+         ]
+      },
+      "Resistivity Simulation":[
+         {
+            "range":"(1 to 100) pS/cm",
+            "cmc":"0.58 pS/cm + 6%",
+            "comments":"Decade box"
+         },
+         {
+            "range":"(0.001 to 1) µS/cm",
+            "cmc":"0.15 nS/cm + 0.57%",
+            "comments":"Decade box"
+         },
+         {
+            "range":"1 µS/cm to 1 mS/cm",
+            "cmc":"0.62 µS/cm + 0.53%",
+            "comments":"Decade box"
+         }
+      ],
+      "pH - Measuring Equipment":{
+         "Fixed points":[
+            {
+               "range":"4.00 pH",
+               "cmc":"0.017 pH",
+               "comments":"pH buffer solution"
+            },
+            {
+               "range":"7.00 pH",
+               "cmc":"0.016 pH",
+               "comments":"pH buffer solution"
+            },
+            {
+               "range":"10.00 pH",
+               "cmc":"0.023 pH",
+               "comments":"pH buffer solution"
+            }
+         ]
+      },
+      "pH (mV simulation)":[
+         {
+            "range":"(4.00 to 10.00) pH",
+            "cmc":"0.000 63 pH",
+            "comments":"Multifunction calibrator"
+         }
+      ],
+      "TDS (Total Dissolved Solid) - Measuring Equipment":[
+         {
+            "range":"≈1 mg/L",
+            "cmc":"0.2 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈3 mg/L",
+            "cmc":"0.2 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈66 mg/L",
+            "cmc":"0.54 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈665 mg/L",
+            "cmc":"2.3 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈940 mg/L",
+            "cmc":"2.4 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈6650 mg/L",
+            "cmc":"22 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈66 500 mg/L",
+            "cmc":"200 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈100 000 mg/L",
+            "cmc":"400 mg/L",
+            "comments":"TDS standard solution"
+         },
+         {
+            "range":"≈133 000 mg/L",
+            "cmc":"400 mg/L",
+            "comments":"TDS standard solution"
+         }
+      ]
+   },
+   "Dimensional":{
+      "Gage Blocks":[
+         {
+            "range":"(0.050 to 4) in",
+            "cmc":"(6.6 + 1.3L) μίη",
+            "comments":"Gage blocks"
+         },
+         {
+            "range":"(0.5 to 100) mm",
+            "cmc":"(0.15 µm + 0.0009L)",
+            "comments":"Gage blocks"
+         }
+      ],
+      "Cylindrical Gages (Plugs & Pins)":[
+         {
+            "range":"(0.005 to 1) in",
+            "cmc":"(28 + 0.00212) μίη",
+            "comments":"Laser micrometer & master pin gages"
+         },
+         {
+            "range":"(0.127 to 25.4) mm",
+            "cmc":"(0.72 + 0.002L) um",
+            "comments":"Laser micrometer & master pin gages"
+         }
+      ],
+      "Calipers - Outside, Inside, Step & Depth":[
+         {
+            "range":"Up to 36 in",
+            "cmc":"(350 + 0.76L) μίη",
+            "comments":"Gage blocks"
+         },
+         {
+            "range":"Up to 915 mm",
+            "cmc":"(5.9 +0.000 13L) µm",
+            "comments":"Gage blocks"
+         }
+      ],
+      "Height Gages":[
+         {
+            "range":"Up to 24 in",
+            "cmc":"(610 + 0.76L) μίη",
+            "comments":"Gage blocks"
+         },
+         {
+            "range":"Up to 500 mm",
+            "cmc":"(15 + 0.048L) µm",
+            "comments":"Gage blocks"
+         }
+      ],
+      "Depth Gage":[
+         {
+            "range":"Up to 24 in",
+            "cmc":"(350 + 0.76L) μin",
+            "comments":"Gage blocks"
+         },
+         {
+            "range":"Up to 500 mm",
+            "cmc":"(5.9 +0.000 13L) µm",
+            "comments":"Gage blocks"
+         }
+      ],
+      "Micrometers - Outside, Inside & Depth":[
+         {
+            "range":"Up to 24 in",
+            "cmc":"(33 + 4.6L) μίη",
+            "comments":"Gage blocks"
+         },
+         {
+            "range":"Up to 500 mm",
+            "cmc":"(0.8 + 1.1L) µm",
+            "comments":"Gage blocks"
+         }
+      ],
+      "Bore Gages":[
+         {
+            "range":"(0.5 to 2) in",
+            "cmc":"43 μίη",
+            "comments":"Ring gages"
+         },
+         {
+            "range":"(12.7 to 50.4) mm",
+            "cmc":"0.52 μm",
+            "comments":"Ring gages"
+         }
+      ],
+      "Length Indicators":[
+         {
+            "range":"Up to 8 in",
+            "cmc":"(100 + 1.9L) μίη",
+            "comments":"Gage blocks"
+         },
+         {
+            "range":"Up to 200 mm",
+            "cmc":"(2.6 +0.000 12L) µm",
+            "comments":"Gage blocks"
+         }
+      ],
+      "Thickness Gages - Dial & Digital, Feeler Gages":[
+         {
+            "range":"Up to 1 in",
+            "cmc":"0.0002 in",
+            "comments":"Gage blocks, micrometer"
+         },
+         {
+            "range":"Up to 25.4 mm",
+            "cmc":"5.2 μm",
+            "comments":"Gage blocks, micrometer"
+         }
+      ],
+      "Ultrasonic Coating & Thickness Gages":[
+         {
+            "range":"Up to 4 in",
+            "cmc":"120 μίη",
+            "comments":"Step block setting standards, gage blocks"
+         },
+         {
+            "range":"Up to 100 mm",
+            "cmc":"1.5 μm",
+            "comments":"Step block setting standards, gage blocks"
+         }
+      ],
+      "Precision Levels - Bubble Levels":[
+         {
+            "range":"(0 to 15) in",
+            "cmc":"30 μίη",
+            "comments":"Surface plate, sine bar, gage blocks"
+         }
+      ],
+      "Precision Levels - Electronic Levels":[
+         {
+            "range":"(0 to 45)°",
+            "cmc":"0.0053°",
+            "comments":"Surface plate, sine bar, gage blocks"
+         }
+      ],
+      "Protractor":[
+         {
+            "range":"(0 to 360)°",
+            "cmc":"0.0053°",
+            "comments":"Surface plate, sine bar, gage blocks"
+         }
+      ],
+      "Surface Plate - Flatness Overall":[
+         {
+            "range":"Up to 161 diagonal in",
+            "cmc":"77 μin + (0.69µin/in · DL)",
+            "comments":"Electronic level system (DL = diagonal length in inches)"
+         }
+      ],
+      "Rulers & Tapes":[
+         {
+            "range":"(0.05 to 36) in",
+            "cmc":"(190 + 55L) μίη",
+            "comments":"NIST SOP 10: gauge blocks, measuring microscope"
+         },
+         {
+            "range":"(0 to 1000) mm",
+            "cmc":"(240 + 14L) μη",
+            "comments":"NIST SOP 10: gauge blocks, measuring microscope"
+         },
+         {
+            "range":"(3 to 100) ft",
+            "cmc":"(0.019 + 0.000 15L) in",
+            "comments":"NIST SOP 12: digital ruler calibrator"
+         },
+         {
+            "range":"(1 to 30.5) m",
+            "cmc":"(2.3 + 130L) mm",
+            "comments":"NIST SOP 12: digital ruler calibrator"
+         }
+      ],
+      "Microscope - Linearity (X, Y, Z)":[
+         {
+            "range":"(300 x 200 x 200) mm",
+            "cmc":"0.0022 mm",
+            "comments":"CEM DI-006-19 gage blocks, length reticle"
+         },
+         {
+            "range":"(12 x 8 x 8) in",
+            "cmc":"89 μίη",
+            "comments":"CEM DI-006-19 gage blocks, length reticle"
+         }
+      ],
+      "Microscope - Angle":[
+         {
+            "range":"(0 to 180)°",
+            "cmc":"0.058°",
+            "comments":"Angle gage block"
+         }
+      ],
+      "Optical Comparator - Linearity (X, Y)":[
+         {
+            "range":"(300 x 200) mm",
+            "cmc":"0.0022 mm",
+            "comments":"Gage blocks, length reticle"
+         },
+         {
+            "range":"(12 x 8) in",
+            "cmc":"92 μίη",
+            "comments":"Gage blocks, length reticle"
+         }
+      ],
+      "Sieves - Opening Size":[
+         {
+            "range":"(0.020 to 125) mm",
+            "cmc":"(2.1 + 0.94D) um",
+            "comments":"ASTM E11: measuring microscope"
+         },
+         {
+            "range":"(0.0008 to 5) in",
+            "cmc":"(81 + 1D) μίη",
+            "comments":"ASTM E11: measuring microscope"
+         }
+      ],
+      "Sieves - Wire Diameter":[
+         {
+            "range":"(0.020 to 125) mm",
+            "cmc":"15 μm",
+            "comments":"Caliper"
+         },
+         {
+            "range":"(0.0008 to 5) in",
+            "cmc":"620 μίη",
+            "comments":"Caliper"
+         }
+      ]
+   },
+   "Dimensional Testing":{
+      "Luer Conical Fittings - Diameter & Length":[
+         {
+            "range":"Up to 50 mm",
+            "cmc":"(2.9 + 0.8L) µm",
+            "comments":"ISO 594/1 & ISO 594/2: measuring microscope"
+         }
+      ],
+      "1D Dimensional Measurement - Length":[
+         {
+            "range":"Up to 11.5 in",
+            "cmc":"(120 + 1.4L) μin",
+            "comments":"Measuring microscope"
+         },
+         {
+            "range":"Up to 290 mm",
+            "cmc":"(2.9 + 1.6L) µm",
+            "comments":"Measuring microscope"
+         },
+         {
+            "range":"(11.5 to 24) in",
+            "cmc":"1600 μίη",
+            "comments":"Digital caliper"
+         },
+         {
+            "range":"(290 to 600) mm",
+            "cmc":"0.037 mm",
+            "comments":"Digital caliper"
+         }
+      ],
+      "1D Dimensional Measurement - X,Y":[
+         {
+            "range":"Up to 11.5 in",
+            "cmc":"(240 + 0.74L) μίη",
+            "comments":"Measuring microscope"
+         },
+         {
+            "range":"Up to 290 mm",
+            "cmc":"(2.9 + 1.6L) µm",
+            "comments":"Measuring microscope"
+         },
+         {
+            "range":"(11.5 to 24) in",
+            "cmc":"0.0016 in",
+            "comments":"Digital caliper"
+         },
+         {
+            "range":"(290 to 600) mm",
+            "cmc":"0.037 mm",
+            "comments":"Digital caliper"
+         }
+      ],
+      "1D Dimensional Measurement - Z":[
+         {
+            "range":"(0 to 20) mm",
+            "cmc":"1.7 µm",
+            "comments":"Measuring microscope with laser scale"
+         }
+      ],
+      "1D Dimensional Measurement - Radius":[
+         {
+            "range":"Up to 11.5 in",
+            "cmc":"(120 + 1.4L) μίη",
+            "comments":"Measuring microscope"
+         },
+         {
+            "range":"Up to 290 mm",
+            "cmc":"(2.9 + 1.6L) µm",
+            "comments":"Measuring microscope"
+         },
+         {
+            "range":"11.5 to 24 in",
+            "cmc":"0.0018 in",
+            "comments":"Digital caliper"
+         },
+         {
+            "range":"(290 to 600) mm",
+            "cmc":"0.037 mm",
+            "comments":"Digital caliper"
+         }
+      ],
+      "1D Dimensional Measurement - Angle":[
+         {
+            "range":"(0 to 180)°",
+            "cmc":"0.087°",
+            "comments":"Measuring microscope"
+         }
+      ]
+   },
+   "Electrical - DC/Low Frequency":{
+      "DC Current - Generate":[
+         {
+            "range":"(0 to 220) μA",
+            "cmc":"7.7 nA + 23 μA/A",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(0.22 to 2.2) mA",
+            "cmc":"36 nA + 37 μA/A",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(2.2 to 22) mA",
+            "cmc":"190 nA + 34 μA/A",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(22 to 220) mA",
+            "cmc":"4.1 μA + 53 μA/A",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"220 mA to 2.2 A",
+            "cmc":"32 μA + 79 μA/A",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(2.2 to 11) A",
+            "cmc":"53 μA + 860 μA/A",
+            "comments":"Multifunction calibrator with transconductance amplifier"
+         },
+         {
+            "range":"(11 to 30) A",
+            "cmc":"2 mA + 1.1 mA/A",
+            "comments":"Multifunction calibrator"
+         }
+      ],
+      "DC Current - Measure":[
+         {
+            "range":"(0 to 100) μA",
+            "cmc":"4.5 nA + 7.3 μA/A",
+            "comments":"8.5-digit digital multimeter"
+         },
+         {
+            "range":"(0.1 to 1) mA",
+            "cmc":"42 nA + 7.8 μA/A",
+            "comments":"8.5-digit digital multimeter"
+         },
+         {
+            "range":"(1 to 10) mA",
+            "cmc":"200 nA + 12 μA/A",
+            "comments":"8.5-digit digital multimeter"
+         },
+         {
+            "range":"(10 to 100) mA",
+            "cmc":"960 nA + 46 μA/A",
+            "comments":"8.5-digit digital multimeter"
+         },
+         {
+            "range":"(0.1 to 1) A",
+            "cmc":"300 μA + 150 μA/A",
+            "comments":"8.5-digit digital multimeter with shunt"
+         },
+         {
+            "range":"(1 to 10) A",
+            "cmc":"720 μA + 420 μA/A",
+            "comments":"8.5-digit digital multimeter with shunt"
+         },
+         {
+            "range":"(10 to 30) A",
+            "cmc":"5.4 mA + 500 μA/A",
+            "comments":"8.5-digit digital multimeter with shunt"
+         },
+         {
+            "range":"(30 to 1000) A",
+            "cmc":"2.5 mA + 5.1 mA/A",
+            "comments":"8.5-digit digital multimeter with shunt"
+         }
+      ],
+      "DC Voltage - Generate":[
+         {
+            "range":"(0 to 0.22) V",
+            "cmc":"1.2 μV + 4.8 μV/V",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(0.22 to 2.2) V",
+            "cmc":"2.3 μV + 6.3 μV/V",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(2.2 to 22) V",
+            "cmc":"14 μV + 4.5 μV/V",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(22 to 220) V",
+            "cmc":"520 μV + 7.5 µV/V",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(220 to 1100) V",
+            "cmc":"1.2 mV + 6.5 µV/V",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"(1.1 to 10) kV",
+            "cmc":"38 V + 29 mV/V",
+            "comments":"Hipot with HV probe"
+         }
+      ],
+      "DC Voltage - Measure":[
+         {
+            "range":"(0 to 0.1) V",
+            "cmc":"1.8 μV + 3.9 μV/V",
+            "comments":"Precision multimeter"
+         },
+         {
+            "range":"(0.1 to 1) V",
+            "cmc":"3.1 μV + 3.5 µV/V",
+            "comments":"Precision multimeter"
+         },
+         {
+            "range":"(1 to 10) V",
+            "cmc":"32 μV + 3.8 μV/V",
+            "comments":"Precision multimeter"
+         },
+         {
+            "range":"(10 to 100) V",
+            "cmc":"480 μV + 5.7 µV/V",
+            "comments":"Precision multimeter"
+         },
+         {
+            "range":"(100 to 1000) V",
+            "cmc":"3.3 mV + 5.7 µV/V",
+            "comments":"Precision multimeter"
+         }
+      ],
+
+      "AC Voltage - Measure":[
+         {
+            "range":"(0 to 70) kV",
+            "cmc":"2.2 V + 1.5%",
+            "comments":"High-accuracy kilovolt meter"
+         }
+      ],
+      "DC Power - Generate":[
+         {
+            "range":"0.01 mW to 337 W",
+            "cmc":"0.028%",
+            "comments":"Fluke 5522A"
+         },
+         {
+            "range":"(0.01 to 3060) W",
+            "cmc":"0.027%",
+            "comments":"Fluke 5522A"
+         },
+         {
+            "range":"(3.06 to 20.91) kW",
+            "cmc":"0.079%",
+            "comments":"Fluke 5522A"
+         }
+      ],
+      "Clamp-On Meters":[
+         {
+            "range":"(0.02 to 1) MW",
+            "cmc":"0.63%",
+            "comments":"Fluke 5522A & Fluke 5500B"
+         }
+      ],
+      "Resistance - Generate, Fixed Points":[
+         {
+            "range":"0.0001 Ω",
+            "cmc":"14 μΩ",
+            "comments":"Current shunts"
+         },
+         {
+            "range":"0.000 165 Ω",
+            "cmc":"22 μΩ",
+            "comments":"Current shunts"
+         },
+         {
+            "range":"0.0002 Ω",
+            "cmc":"5.8 μΩ",
+            "comments":"Current shunts"
+         },
+         {
+            "range":"0.000 25 Ω",
+            "cmc":"42 μΩ",
+            "comments":"Current shunts"
+         },
+         {
+            "range":"0.005 Ω",
+            "cmc":"9.6 μΩ",
+            "comments":"Current shunts"
+         },
+         {
+            "range":"0.001 Ω",
+            "cmc":"14 μΩ",
+            "comments":"Current shunts"
+         },
+         {
+            "range":"0.002 Ω",
+            "cmc":"3.7 μΩ",
+            "comments":"Current shunts"
+         },
+         {
+            "range":"0 Ω",
+            "cmc":"51 μΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"1 Ω",
+            "cmc":"110 μΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"1.9 Ω",
+            "cmc":"210 μΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"10 Ω",
+            "cmc":"270 μΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"19 Ω",
+            "cmc":"550 μΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"100 Ω",
+            "cmc":"1.2 mΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"190 Ω",
+            "cmc":"2.4 mΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"1 kΩ",
+            "cmc":"10 mΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"1.9 kΩ",
+            "cmc":"27 mΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"10 kΩ",
+            "cmc":"100 mΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"19 kΩ",
+            "cmc":"0.20 Ω",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"100 kΩ",
+            "cmc":"1.4 Ω",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"190 kΩ",
+            "cmc":"2.5 Ω",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"1 MΩ",
+            "cmc":"26 Ω",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"1.9 MΩ",
+            "cmc":"48 Ω",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"10 MΩ",
+            "cmc":"470 Ω",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"19 MΩ",
+            "cmc":"1.1 KΩ",
+            "comments":"Multifunction calibrator"
+         },
+         {
+            "range":"100 MΩ",
+            "cmc":"12 KΩ",
+            "comments":"Multifunction calibrator"
+         }
+      ],
+      "Resistance - Measure":[
+         {
+            "range":"(0.1 to 1) MΩ",
+            "cmc":"82 Ω + 0.57%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(1 to 10) MΩ",
+            "cmc":"71 Ω + 0.58%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(10 to 100) MΩ",
+            "cmc":"120 Ω + 1.4%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(0.1 to 1) GΩ",
+            "cmc":"12 KΩ + 1.3%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(1 to 10) GΩ",
+            "cmc":"410 KΩ + 1.1%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(10 to 100) GΩ",
+            "cmc":"0.91 MΩ + 1.2%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(0.1 to 1) TΩ",
+            "cmc":"0.82 GΩ + 2.3%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(1 to 10) TΩ",
+            "cmc":"8.2 GΩ + 5.9%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(0 to 1) Ω",
+            "cmc":"14 μΩ + 11 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(1 to 10) Ω",
+            "cmc":"260 μΩ + 6.6 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(10 to 100) Ω",
+            "cmc":"2.2 mΩ + 7.9 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(100 to 1000) Ω",
+            "cmc":"4.5 mΩ + 8.1 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(1 to 10) kΩ",
+            "cmc":"28 mΩ + 11 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(10 to 100) kΩ",
+            "cmc":"1.2 Ω + 6.6 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(100 to 1000) kΩ",
+            "cmc":"170 Ω + 2.1 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(1 to 10) MΩ",
+            "cmc":"150 Ω + 11 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(10 to 100) MΩ",
+            "cmc":"0.58 MΩ + 20 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(100 to 1000) MΩ",
+            "cmc":"5.8 MΩ + 370 μΩ/Ω",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(1 to 100) GΩ",
+            "cmc":"0.84 GΩ + 1.9%",
+            "comments":"Precision multimeter, resistance box"
+         },
+         {
+            "range":"(100 to 1000) GΩ",
+            "cmc":"8 GΩ + 2%",
+            "comments":"Precision multimeter, resistance box"
+         }
+      ],
+      "Resistance - Measure - LCR":[
+         {
+            "range":"(0 to 10) Ω",
+            "frequency":"1 kHz",
+            "cmc":"5.9 mΩ + 740 μΩ/Ω",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(10 to 100) Ω",
+            "frequency":"1 kHz",
+            "cmc":"5.9 mΩ + 1 mΩ/Ω",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(100 to 1000) Ω",
+            "frequency":"1 kHz",
+            "cmc":"5.9 mΩ + 1.1 mΩ/Ω",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(1 to 10) kΩ",
+            "frequency":"1 kHz",
+            "cmc":"0.48 Ω + 0.92 mΩ/Ω",
+            "comments":"Precision LCR meter"
+         }
+      ],
+      "Resistance - Generate":[
+         {
+            "range":"(0 to 10) Ω",
+            "frequency":"1 kHz",
+            "cmc":"29 mΩ + 180 μΩ/Ω",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(10 to 100) Ω",
+            "frequency":"1 kHz",
+            "cmc":"29 mΩ + 790 μΩ/Ω",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(100 to 1000) Ω",
+            "frequency":"1 kHz",
+            "cmc":"35 mΩ + 0.1%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(1 to 10) kΩ",
+            "frequency":"1 kHz",
+            "cmc":"190 mΩ + 0.11%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(10 to 100) kΩ",
+            "frequency":"1 kHz",
+            "cmc":"3.2 Ω + 0.13%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(100 to 1000) kΩ",
+            "frequency":"1 kHz",
+            "cmc":"0.15 kΩ + 0.11%",
+            "comments":"Resistance box"
+         },
+         {
+            "range":"(1 to 10) MΩ",
+            "frequency":"1 kHz",
+            "cmc":"19 kΩ + 0.054%",
+            "comments":"Resistance box"
+         }
+      ],
+      "Capacitance - Measure":[
+         {
+            "range":"(0 to 10) pF",
+            "frequency":"1 kHz",
+            "cmc":"0.0025 pF + 2.7%",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(10 to 100) pF",
+            "frequency":"1 kHz",
+            "cmc":"0.059 pF + 3.8 mF/F",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(0.1 to 1) nF",
+            "frequency":"1 kHz",
+            "cmc":"59 pF + 28 μF/F",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(1 to 10) nF",
+            "frequency":"1 kHz",
+            "cmc":"190 pF + 78 μF/F",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(10 to 100) nF",
+            "frequency":"1 kHz",
+            "cmc":"67 pF + 570 μF/F",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(0.10 to 1) μF",
+            "frequency":"1 kHz",
+            "cmc":"700 pF + 990 μF/F",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(1 to 10) μF",
+            "frequency":"1 kHz",
+            "cmc":"8.1 nF + 1.7 mF/F",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(10 to 100) μF",
+            "frequency":"1 kHz",
+            "cmc":"220 nF + 1.7 mF/F",
+            "comments":"Precision LCR meter"
+         },
+         {
+            "range":"(100 to 1000) μF",
+            "frequency":"1 kHz",
+            "cmc":"1.2 nF + 1.7%",
+            "comments":"Precision LCR meter"
+         }
+      ],
+      "Capacitance - Generate - Fixed Points":[
+         {
+            "range":"100 pF",
+            "frequency":"1 kHz",
+            "cmc":"1.6 pF",
+            "comments":"Standard capacitors"
+         },
+         {
+            "range":"1 nF",
+            "frequency":"1 kHz",
+            "cmc":"4.6 pF",
+            "comments":"Standard capacitors"
+         },
+         {
+            "range":"10 nF",
+            "frequency":"1 kHz",
+            "cmc":"38 pF",
+            "comments":"Standard capacitors"
+         },
+         {
+            "range":"100 nF",
+            "frequency":"1 kHz",
+            "cmc":"0.38 nF",
+            "comments":"Standard capacitors"
+         },
+         {
+            "range":"1 μF",
+            "frequency":"1 kHz",
+            "cmc":"3.8 nF",
+            "comments":"Standard capacitors"
+         },
+         {
+            "range":"10 μF",
+            "frequency":"1 kHz",
+            "cmc":"34 nF",
+            "comments":"Standard capacitors"
+         }
+      ],
+      "PT500 (385)":[
+         {
+            "range":"(-200 to -80) °C",
+            "cmc":"0.0083 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(-80 to 0) °C",
+            "cmc":"0.0086 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(0 to 100) °C",
+            "cmc":"0.0088 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(100 to 260) °C",
+            "cmc":"0.0095 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(260 to 300) °C",
+            "cmc":"0.025 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(300 to 400) °C",
+            "cmc":"0.026 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(400 to 630) °C",
+            "cmc":"0.027 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         }
+      ],
+      "PT1000 (385)":[
+         {
+            "range":"(-200 to -80) °C",
+            "cmc":"0.0043 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(-80 to 0) °C",
+            "cmc":"0.020 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(0 to 100) °C",
+            "cmc":"0.021 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(100 to 260) °C",
+            "cmc":"0.020 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(260 to 300) °C",
+            "cmc":"0.022 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(300 to 400) °C",
+            "cmc":"0.023 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(400 to 630) °C",
+            "cmc":"0.024 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         }
+      ],
+      "PtNi (385), 120Ω":[
+         {
+            "range":"(-80 to 0) °C",
+            "cmc":"0.025 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(0 to 100) °C",
+            "cmc":"0.019 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         },
+         {
+            "range":"(100 to 260) °C",
+            "cmc":"0.015 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         }
+      ],
+      "Cu 427, 10Ω":[
+         {
+            "range":"(-100 to 260) °C",
+            "cmc":"0.084 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         }
+      ],
+      "YS1400":[
+         {
+            "range":"(15 to 50) °C",
+            "cmc":"0.0099 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         }
+      ],
+      "25 Ω SPRT":[
+         {
+            "range":"(-200 to 660) °C",
+            "cmc":"0.019 °C",
+            "comments":"Temperature simulation meter in measuring mode"
+         }
+      ]
+   },
+   "Electrical Simulation of RTD Indicators":{
+      "PT100 (385)":[
+         {
+            "range":"(-200 to -80) °C",
+            "cmc":"0.014 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(-80 to 0) °C",
+            "cmc":"0.014 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(0 to 100) °C",
+            "cmc":"0.022 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(100 to 630) °C",
+            "cmc":"0.035 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(630 to 800) °C",
+            "cmc":"0.10 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "PT100 (3926)":[
+         {
+            "range":"(-200 to 0) °C",
+            "cmc":"0.013 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(0 to 300) °C",
+            "cmc":"0.034 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(300 to 630) °C",
+            "cmc":"0.12 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "PT100 (3916)":[
+         {
+            "range":"(-200 to -190) °C",
+            "cmc":"0.032 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(-190 to 300) °C",
+            "cmc":"0.03 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(300 to 630) °C",
+            "cmc":"0.032 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "PT200 (385)":[
+         {
+            "range":"(-200 to 260) °C",
+            "cmc":"0.032 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(260 to 400) °C",
+            "cmc":"0.10 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(400 to 630) °C",
+            "cmc":"0.11 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "PT500 (385)":[
+         {
+            "range":"(-200 to -80) °C",
+            "cmc":"0.033 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(-80 to 100) °C",
+            "cmc":"0.098 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(100 to 300) °C",
+            "cmc":"0.097 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(300 to 400) °C",
+            "cmc":"0.21 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(400 to 630) °C",
+            "cmc":"0.22 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "PT1000 (385)":[
+         {
+            "range":"(-200 to -80) °C",
+            "cmc":"0.098 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(-80 to 260) °C",
+            "cmc":"0.32 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(260 to 630) °C",
+            "cmc":"0.37 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "PtNi 385, 120Ω (Ni120)":[
+         {
+            "range":"(-80 to 0) °C",
+            "cmc":"0.013 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(0 to 100) °C",
+            "cmc":"0.02 °C",
+            "comments":"Temperature simulator in source mode"
+         },
+         {
+            "range":"(100 to 260) °C",
+            "cmc":"0.058 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "Cu 427, 10Ω":[
+         {
+            "range":"(-100 to 260) °C",
+            "cmc":"0.88 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ],
+      "YS1400":[
+         {
+            "range":"(15 to 50) °C",
+            "cmc":"0.0099 °C",
+            "comments":"Temperature simulator in source mode"
+         }
+      ]
+   },
+   "AC Current - Generate":[
+      {
+         "range":"(0 to 20) μA",
+         "frequency":"(0.1 to 1) kHz",
+         "cmc":"12 nA + 17 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 20) μA",
+         "frequency":"(1 to 10) kHz",
+         "cmc":"75 nA + 210 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(20 to 220) μA",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"13 nA + 92 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(20 to 220) μA",
+         "frequency":"(1 to 5) kHz",
+         "cmc":"22 nA + 240 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(20 to 220) μA",
+         "frequency":"(5 to 10) kHz",
+         "cmc":"84 nA + 940 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 2.2) mA",
+         "frequency":"40 Hz to 1 kHz",
+         "cmc":"76 nA + 110 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 2.2) mA",
+         "frequency":"(1 to 5) kHz",
+         "cmc":"180 nA + 160 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 2.2) mA",
+         "frequency":"(5 to 10) kHz",
+         "cmc":"840 nA + 940 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mA",
+         "frequency":"40 Hz to 1 kHz",
+         "cmc":"770 nA + 110 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mA",
+         "frequency":"(1 to 5) kHz",
+         "cmc":"1.7 μA + 170 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mA",
+         "frequency":"(5 to 10) kHz",
+         "cmc":"8.1 μA + 950 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mA",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"7.4 μA + 110 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mA",
+         "frequency":"(1 to 5) kHz",
+         "cmc":"17 μA + 170 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mA",
+         "frequency":"(5 to 10) kHz",
+         "cmc":"58 μA + 1 mA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 2.2) A",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"130 μA + 260 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 2.2) A",
+         "frequency":"(1 to 5) kHz",
+         "cmc":"280 μA + 410 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 2.2) A",
+         "frequency":"(5 to 10) kHz",
+         "cmc":"0.97 mA + 7.7 mA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 11) A",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"2.7 mA + 930 μA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 11) A",
+         "frequency":"(1 to 5) kHz",
+         "cmc":"1 mA + 1 mA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 11) A",
+         "frequency":"(5 to 10) kHz",
+         "cmc":"1.6 mA + 4 mA/A",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(11 to 20) A",
+         "frequency":"(0.040 to 1) kHz",
+         "cmc":"7.5 mA + 1.4 mA/A",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(20 to 30) A",
+         "frequency":"(0.040 to 1) kHz",
+         "cmc":"12 mA + 710 μA/A",
+         "comments":"Advance Calibrator 4015"
+      }
+   ],
+   "AC Current - Measure":[
+      {
+         "range":"(0 to 100) μA",
+         "frequency":"40 Hz to 1 kHz",
+         "cmc":"38 nA + 410 μA/A",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0.1 to 1) mA",
+         "frequency":"40 Hz to 1 kHz",
+         "cmc":"190 nA + 420 μA/A",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(1 to 10) mA",
+         "frequency":"40 Hz to 1 kHz",
+         "cmc":"1.9 μA + 420 μA/A",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(10 to 100) mA",
+         "frequency":"40 Hz to 1 kHz",
+         "cmc":"21 μA + 410 μA/A",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0.1to 1.05) A",
+         "frequency":"40 Hz to 1 kHz",
+         "cmc":"230 μA + 610 μA/A",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(1.05 to 10) A",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"4 mA + 1 mA/A",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(10 to 30) A",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"12 mA + 1 mA/A",
+         "comments":"8.5-digit digital multimeter"
+      }
+   ],
+   "AC Voltage - Generate":[
+      {
+         "range":"(0 to 2.2) mV",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"4.7 μV + 2 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 2.2) mV",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"4.7 μV + 2 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 2.2) mV",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"4.8 μV + 12 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 2.2) mV",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"5.9 μV + 62 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 2.2) mV",
+         "frequency":"(100 to 300) kHz",
+         "cmc":"12 μV + 130 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 2.2) mV",
+         "frequency":"(300 to 500) kHz",
+         "cmc":"24 μV + 120 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 2.2) mV",
+         "frequency":"(500 to 1000) kHz",
+         "cmc":"25 μV + 420 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mV",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"4.8 μV + 19 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mV",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"4.8 μV + 19 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mV",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"5.5 μV + 90 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mV",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"6.5 μV + 350 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mV",
+         "frequency":"(100 to 300) kHz",
+         "cmc":"13 μV + 760 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mV",
+         "frequency":"(300 to 500) kHz",
+         "cmc":"26 μV + 820 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2.2 to 22) mV",
+         "frequency":"(500 to 1000) kHz",
+         "cmc":"26 µV + 2.2 mV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mV",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"9 μV + 60 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mV",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"9 μV + 60 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mV",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"13 μV + 180 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mV",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"22 μV + 440 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mV",
+         "frequency":"(100 to 300) kHz",
+         "cmc":"30 μV + 910 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mV",
+         "frequency":"(300 to 500) kHz",
+         "cmc":"67 μV + 1.3 mV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) mV",
+         "frequency":"(500 to 1000) kHz",
+         "cmc":"79 µV + 2.8 mV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 0.5) V",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"25 μV + 29 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 0.5) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"26 μV + 30 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 0.5) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"30 μV + 49 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 0.5) V",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"44 μV + 67 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 0.5) V",
+         "frequency":"(100 to 300) kHz",
+         "cmc":"100 μV + 320 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 0.5) V",
+         "frequency":"(300 to 500) kHz",
+         "cmc":"260 μV + 750 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.22 to 0.5) V",
+         "frequency":"(500 to 1000) kHz",
+         "cmc":"360 μV + 1.4 mV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.5 to 1) V",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"26 μV + 40 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.5 to 1) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"26 μV + 41 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.5 to 1) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"30 μV + 66 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.5 to 1) V",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"44 μV + 92 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.5 to 1) V",
+         "frequency":"(100 to 300) kHz",
+         "cmc":"100 μV + 390 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.5 to 1) V",
+         "frequency":"(300 to 500) kHz",
+         "cmc":"0.34 mV + 860 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0.5 to 1) V",
+         "frequency":"(500 to 1000) kHz",
+         "cmc":"0.43 mV + 1.6 mV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(1 to 2) V",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"300 μV + 23 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(1 to 2) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"300 μV + 23 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(1 to 2) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"160 μV + 68 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(1 to 2) V",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"310 μV + 110 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(1 to 2) V",
+         "frequency":"(100 to 300) kHz",
+         "cmc":"280 μV + 480 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(1 to 2) V",
+         "frequency":"(300 to 500) kHz",
+         "cmc":"580 μV + 900 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(1 to 2) V",
+         "frequency":"(500 to 1000) kHz",
+         "cmc":"0.64 mV + 1.7 mV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2 to 22) V",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"300 μV + 44 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2 to 22) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"300 μV + 44 µV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2 to 22) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"460 μV + 69 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2 to 22) V",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"500 μV + 96 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2 to 22) V",
+         "frequency":"(100 to 300) kHz",
+         "cmc":"1.4 mV + 260 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2 to 22) V",
+         "frequency":"(300 to 500) kHz",
+         "cmc":"6.8 mV + 890 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(2 to 22) V",
+         "frequency":"(500 to 1000) kHz",
+         "cmc":"7.4 mV + 1.4 mV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) V",
+         "frequency":"(0.04 to 1) kHz",
+         "cmc":"3 mV + 48 µV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"4.1 mV + 49 µV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"6.8 mV + 67 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(22 to 220) V",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"7.3 mV + 140 μV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(220 to 1100) V",
+         "frequency":"(0.05 to 1) kHz",
+         "cmc":"27 mV + 66 µV/V",
+         "comments":"Multifunction calibrator"
+      },
+      {
+         "range":"(0 to 300) V",
+         "frequency":"(0.04 to 20) kHz",
+         "cmc":"9.8 mV + 160 μV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(0 to 300) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"22 mV + 620 μV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(0 to 300) V",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"62 mV + 2.5 mV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(300 to 600) V",
+         "frequency":"(0.04 to 20) kHz",
+         "cmc":"14 mV + 170 μV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(300 to 600) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"38 mV + 630 μV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(300 to 600) V",
+         "frequency":"(50 to 100) kHz",
+         "cmc":"84 mV + 2.5 mV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(600 to 1000) V",
+         "frequency":"(0.04 to 20) kHz",
+         "cmc":"21 mV + 170 μV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(600 to 1000) V",
+         "frequency":"(20 to 30) kHz",
+         "cmc":"33 mV + 660 μV/V",
+         "comments":"Multifunction calibrator with transconductance amplifier"
+      },
+      {
+         "range":"(1.1 to 10) kV",
+         "frequency":"60 Hz",
+         "cmc":"25 V + 60 mV/V",
+         "comments":"Hipot with HV probe"
+      }
+   ],
+   "AC Voltage - Measure":[
+      {
+         "range":"(0 to 100) mV",
+         "frequency":"10 Hz to 1 kHz",
+         "cmc":"23 μV + 190 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0 to 100) mV",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"24 μV + 280 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0 to 100) mV",
+         "frequency":"(20 to 100) kHz",
+         "cmc":"0.12 mV + 390 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0.1 to 1) V",
+         "frequency":"10 Hz to 1 kHz",
+         "cmc":"93 μV + 160 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0.1 to 1) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"130 μV + 350 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0.1 to 1) V",
+         "frequency":"(20 to 100) kHz",
+         "cmc":"610 μV + 600 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(0.1 to 1) V",
+         "frequency":"(100 to 1) MHz",
+         "cmc":"29 mV + 5.1 mV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(1 to 10) V",
+         "frequency":"(0.01 to 1) kHz",
+         "cmc":"0.93 mV + 160 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(1 to 10) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"1.3 mV + 350 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(1 to 10) V",
+         "frequency":"(20 to 100) kHz",
+         "cmc":"6.1 mV + 600 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(1 to 10) V",
+         "frequency":"100 kHz to 200 kHz",
+         "cmc":"0.29 V + 5.1 mV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(10 to 100) V",
+         "frequency":"10 Hz to 1 kHz",
+         "cmc":"9.2 mV + 160 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(10 to 100) V",
+         "frequency":"(1 to 20) kHz",
+         "cmc":"13 mV + 460 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(10 to 100) V",
+         "frequency":"(20 to 50) kHz",
+         "cmc":"24 mV + 230μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(100 to 1000) V",
+         "frequency":"10 Hz to 1 kHz",
+         "cmc":"96 mV + 260 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      },
+      {
+         "range":"(100 to 1000) V",
+         "frequency":"(1 to 10) kHz",
+         "cmc":"75 mV + 510 μV/V",
+         "comments":"8.5-digit digital multimeter"
+      }
+   ],
+
+   "ASTM E4-16 ASTM E74-18 with standard load cells": [
+    {
+      "range": "(1000 to 10 000) lbf",
+      "cmc": "1.2R +0.22%",
+      "comments": "ASTM E4-16 ASTM E74-18 with standard load cells"
+    }
+  ],
+   "Force - Compression Testing Machines":[
+      {
+         "range":"(4 to 100) lbf",
+         "cmc":"1.2R +0.74%",
+         "comments":"ASTM E4-16 ASTM E74-18 with standard load cells"
+      },
+      {
+         "range":"(100 to 1000) lbf",
+         "cmc":"1.2R +0.59%",
+         "comments":"ASTM E4-16 ASTM E74-18 with standard load cells"
+      },
+      {
+         "range":"(1000 to 10 000) lbf",
+         "cmc":"1.2R +0.22%",
+         "comments":"ASTM E4-16 ASTM E74-18 with standard load cells"
+      },
+      {
+         "range":"(10 000 to 100 000) lbf",
+         "cmc":"1.2R +0.57%",
+         "comments":"ASTM E4-16 ASTM E74-18 with standard load cells"
+      },
+      {
+         "range":"(100 000 to 500 000) lbf",
+         "cmc":"58 lbf +0.57%",
+         "comments":"ASTM E4-16 ASTM E74-18 with standard load cells"
+      }
+   ],
+   "Force Gauges - Compression & Tension":[
+      {
+         "range":"Up to 100 lbf",
+         "cmc":"0.82R+0.01%",
+         "comments":"Weight standards"
+      },
+      {
+         "range":"(100 to 30 000) lbf",
+         "cmc":"0.82R+0.053%",
+         "comments":"Weight standards"
+      }
+   ],
+   "Pressure & Vacuum - Measuring Equipment - Pneumatic":[
+      {
+         "range":"(-14 to 0) psig",
+         "cmc":"0.0041 psig",
+         "comments":"EURAMET Guide 17, Vacuum gauge"
+      },
+      {
+         "range":"(-1 to 1) inH2O",
+         "cmc":"0.0037 inH2O",
+         "comments":"Digital pressure gauge"
+      },
+      {
+         "range":"(-5 to 5) inH2O",
+         "cmc":"0.0072 inH2O + 2.9 µinH2O/inH2O",
+         "comments":"Silicon pressure transducer"
+      },
+      {
+         "range":"(0 to 10) inH2O",
+         "cmc":"0.0035 inH2O + 0.091 µinH2O/inH2O",
+         "comments":"Silicon pressure transducer"
+      },
+      {
+         "range":"(10 to 300) mmHg",
+         "cmc":"0.0057 mmHg + 0.064%",
+         "comments":"Dead weight ball gauge"
+      },
+      {
+         "range":"(1 to 300) psig",
+         "cmc":"0.00042 psig + 0.024%",
+         "comments":"Pressure transducer"
+      },
+      {
+         "range":"(0 to 1000) psia",
+         "cmc":"0.009 psia + 0.012%",
+         "comments":"Pressure transducer"
+      }
+   ],
+   "Pressure & Vacuum - Measuring Equipment - Hydraulic":[
+      {
+         "range":"(14.5 to 530) psig",
+         "cmc":"0.098 psig + 0.011 %",
+         "comments":"Hydraulic dead weight tester"
+      },
+      {
+         "range":"(530 to 10 150) psig",
+         "cmc":"0.062 psig + 0.022 %",
+         "comments":"Digital pressure gauge"
+      }
+   ],
+   "Pressure & Vacuum - Measuring Equipment - Pneumatic/Hydraulic":[
+      {
+         "range":"(10 150 to 36 000) psig",
+         "cmc":"11 psig",
+         "comments":"Digital pressure gauge"
+      }
+   ],
+   "Pressure & Vacuum - Measuring Equipment - Barometric":[
+      {
+         "range":"(60 to 110) kPa",
+         "cmc":"0.048 kPa",
+         "comments":null
+      }
+   ],
+   "Mass":{
+      "ASTM Classes 1, 2, 3, 4, 5, 6 & 7":[
+         {
+            "range":"(1 to 10) mg",
+            "cmc":"0.0019 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"(20 to 500) mg",
+            "cmc":"0.0028 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"(1 to 5) g",
+            "cmc":"0.0086 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         }
+      ],
+      "OIML Classes E2, F1, F2, M1, M2 & M3":[
+         {
+            "range":"10 g",
+            "cmc":"0.0076 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"20 g",
+            "cmc":"0.013 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"50 g",
+            "cmc":"0.02 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"100 g",
+            "cmc":"0.045 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"200 g",
+            "cmc":"0.07 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"500 g",
+            "cmc":"0.17 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"1 kg",
+            "cmc":"0.22 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"2 kg",
+            "cmc":"3.8 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"5 kg",
+            "cmc":"7.7 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"10 kg",
+            "cmc":"40 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"(20 to 25) kg",
+            "cmc":"100 mg",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         },
+         {
+            "range":"500 kg",
+            "cmc":"24 g",
+            "comments":"NIST SOPs 4, 5, 7 & 8 Mass standards, mass comparators, microbalances and analytical balances"
+         }
+      ]
+   },
+   "Optical Quantities":{
+      "Colorimeters":[
+         {
+            "range":"(0 to 0.17) mg/L",
+            "cmc":"0.051 mg/L",
+            "comments":"Ozone (mid-range) color standards."
+         },
+         {
+            "range":"(0.17 to 0.48) mg/L",
+            "cmc":"0.061 mg/L",
+            "comments":"Ozone (mid-range) color standards."
+         },
+         {
+            "range":"(0.48 to 0.69) mg/L",
+            "cmc":"0.073 mg/L",
+            "comments":"Ozone (mid-range) color standards."
+         },
+         {
+            "range":"(0 to 0.25) mg/L",
+            "cmc":"0.091 mg/L",
+            "comments":"DPD chlorine LR color standards."
+         },
+         {
+            "range":"(0.25 to 0.97) mg/L",
+            "cmc":"0.10 mg/L",
+            "comments":"DPD chlorine LR color standards."
+         },
+         {
+            "range":"(0.97 to 1.68) mg/L",
+            "cmc":"0.14 mg/L",
+            "comments":"DPD chlorine LR color standards."
+         },
+         {
+            "range":"(0 to 0.25) mg/L",
+            "cmc":"0.091 mg/L",
+            "comments":"DPD chlorine MR color standards."
+         },
+         {
+            "range":"(0.25 to 1.60) mg/L",
+            "cmc":"0.14 mg/L",
+            "comments":"DPD chlorine MR color standards."
+         },
+         {
+            "range":"(1.60 to 2.86) mg/L",
+            "cmc":"0.30 mg/L",
+            "comments":"DPD chlorine MR color standards."
+         },
+         {
+            "range":"(0 to 2.2) mg/L",
+            "cmc":"0.24 mg/L",
+            "comments":"DPD chlorine HR color standards"
+         },
+         {
+            "range":"(2.2 to 4.0) mg/L",
+            "cmc":"0.37 mg/L",
+            "comments":"DPD chlorine HR color standards"
+         },
+         {
+            "range":"(4.0 to 7.1) mg/L",
+            "cmc":"0.64 mg/L",
+            "comments":"DPD chlorine HR color standards"
+         }
+      ],
+      "Illuminance - Light Meters - Visible Spectrum":[
+         {
+            "range":"(4 to 450) fc",
+            "cmc":"0.12 fc + 3.6%",
+            "comments":"Reference light meter"
+         }
+      ],
+      "Polarimeter - Optical Rotation":[
+         {
+            "range":"(10.818 to 46.736)°",
+            "wavelength":"(325 to 633) nm",
+            "cmc":"0.0065°",
+            "comments":"Quartz control plate"
+         }
+      ],
+      "Refraction Index":[
+         {
+            "range":"(0 to 15)° Brix",
+            "cmc":"0.026° Brix",
+            "comments":"Refractive index calibration standards"
+         },
+         {
+            "range":"(15 to 40) Brix",
+            "cmc":"0.027° Brix",
+            "comments":"Refractive index calibration standards"
+         },
+         {
+            "range":"(40 to 97.05)° Brix",
+            "cmc":"0.036° Brix",
+            "comments":"Refractive index calibration standards"
+         }
+      ],
+      "Transmittance/Absorbance - Spectrophotometers":[
+         {
+            "range":"90% T/0.0362 A",
+            "wavelength":"(250-2800) nm",
+            "cmc":"0.0022 A",
+            "comments":"Transmission & absorbance glass filter certified reference materials T = Transmittance in Absorbance units (A)"
+         },
+         {
+            "range":"30% T/0.5229 A",
+            "wavelength":"(250-2800) nm",
+            "cmc":"0.0041 A",
+            "comments":"Transmission & absorbance glass filter certified reference materials T = Transmittance in Absorbance units (A)"
+         },
+         {
+            "range":"10% T/1.000 A",
+            "wavelength":"(250-2800) nm",
+            "cmc":"0.0046 A",
+            "comments":"Transmission & absorbance glass filter certified reference materials T = Transmittance in Absorbance units (A)"
+         }
+      ],
+      "Wavelength - Spectrophotometers":[
+         {
+            "range":"(240 to 642) nm",
+            "cmc":"0.11 nm",
+            "comments":"Holmium oxide solution wavelength certified reference material"
+         }
+      ],
+      "Aerosol Particle Counter - Counting Efficiency":[
+         {
+            "range":"(0.2 to 1) μm",
+            "cmc":"5.3%",
+            "comments":"ISO 21501-4 Comparison against a standard particle counter. Uncertainty counting efficiency derived from the formula stated in 21501-4 Annex E"
+         }
+      ],
+      "Particle Size Setting":[
+         {
+            "range":"0.3 µm",
+            "cmc":"0.018 µm",
+            "comments":"Uncertainty of size setting error derived from the formula stated in ISO 21501-4 Annex E"
+         },
+         {
+            "range":"0.5 µm",
+            "cmc":"0.012 μm",
+            "comments":"Uncertainty of size setting error derived from the formula stated in ISO 21501-4 Annex E"
+         },
+         {
+            "range":"1.0 µm",
+            "cmc":"0.016 μm",
+            "comments":"Uncertainty of size setting error derived from the formula stated in ISO 21501-4 Annex E"
+         },
+         {
+            "range":"5.0 µm",
+            "cmc":"0.075 μm",
+            "comments":"Uncertainty of size setting error derived from the formula stated in ISO 21501-4 Annex E"
+         },
+         {
+            "range":"10.0 μm",
+            "cmc":"0.1 μm",
+            "comments":"Uncertainty of size setting error derived from the formula stated in ISO 21501-4 Annex E"
+         }
+      ]
+   },
+   "Thermodynamics":{
+      "Temperature - Measuring Equipment - Digital & Mechanical Thermometers & Temperature Probes":[
+         {
+            "range":"(-200 to -40) °C",
+            "cmc":"0.028 °C",
+            "comments":"Digital indicator with PRT, liquid baths, dry blocks"
+         },
+         {
+            "range":"(-40 to 0) °C",
+            "cmc":"0.026 °C",
+            "comments":"Digital indicator with PRT, liquid baths, dry blocks"
+         },
+         {
+            "range":"(0 to 232) °C",
+            "cmc":"0.048 °C",
+            "comments":"Digital indicator with PRT, liquid baths, dry blocks"
+         },
+         {
+            "range":"(232 to 420) °C",
+            "cmc":"0.070 °C",
+            "comments":"Digital indicator with PRT, liquid baths, dry blocks"
+         },
+         {
+            "range":"(420 to 660) °C",
+            "cmc":"0.081 °C",
+            "comments":"Digital indicator with PRT, liquid baths, dry blocks"
+         },
+         {
+            "range":"(660 to 1 200) °C",
+            "cmc":"3.5 °C",
+            "comments":"Dry block calibrator"
+         }
+      ],
+      "Temperature - Measuring Equipment - Ambient Equipment":[
+         {
+            "range":"(-40 to 100) °C",
+            "cmc":"0.059 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(10 to 50) °C",
+            "cmc":"0.056 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(50 to 200) ° C",
+            "cmc":"0.059 °C",
+            "comments":"Digital indicator with PRT"
+         }
+      ],
+      "Temperature - Measuring Equipment - Thermocouples":[
+         {
+            "range":"(-80 to -40) °C",
+            "cmc":"0.3 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(-40 to 0) °C",
+            "cmc":"0.54 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(0 to 650) °C",
+            "cmc":"0.38 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(650 to 1200) °C",
+            "cmc":"1.6 °C",
+            "comments":"Digital indicator with PRT"
+         }
+      ],
+      "Temperature - Dry Blocks":[
+         {
+            "range":"(-80 to 0) °C",
+            "cmc":"0.062 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(0 to 232) °C",
+            "cmc":"0.071°C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(232 to 420) °C",
+            "cmc":"0.19 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(420 to 660) °C",
+            "cmc":"0.20 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(660 to 1200) °C",
+            "cmc":"0.25 °C +0.36%",
+            "comments":"Digital indicator with PRT"
+         }
+      ],
+      "Temperature - Liquid-in-Glass Thermometers":[
+         {
+            "range":"(-80 to 105) °C",
+            "cmc":"0.084 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(95 to 205) °C",
+            "cmc":"0.11 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(195 to 405) °C",
+            "cmc":"0.14 °C",
+            "comments":"Digital indicator with PRT"
+         }
+      ],
+      "Temperature - Measure Temperature Chambers, Ovens, Freezers":[
+         {
+            "range":"(-200 to 0) °C",
+            "cmc":"0.055°C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(0 to 232) °C",
+            "cmc":"0.067 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(232 to 420) °C",
+            "cmc":"0.08 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(420 to 660) °C",
+            "cmc":"0.18 °C",
+            "comments":"Digital indicator with PRT"
+         },
+         {
+            "range":"(660 to 1200) °C",
+            "cmc":"4.7 °C +0.56%",
+            "comments":"Digital indicator with thermocouple"
+         }
+      ],
+      "Infrared Temperature Thermometer":[
+         {
+            "range":"(-15 to 0) °C",
+            "cmc":"0.55 °C",
+            "comments":"Black body IR calibrators"
+         },
+         {
+            "range":"(0 to 100) °C",
+            "cmc":"0.35 °C",
+            "comments":"Black body IR calibrators"
+         },
+         {
+            "range":"(100 to 200) °C",
+            "cmc":"0.96 °C",
+            "comments":"Black body IR calibrators"
+         },
+         {
+            "range":"(200 to 500) °C",
+            "cmc":"2.1 °C",
+            "comments":"Black body IR calibrators"
+         }
+      ],
+      "Relative Humidity - Measuring Equipment":[
+         {
+            "range":"(0.25 to 10) % RH",
+            "cmc":"0.97% RH",
+            "comments":"Hygrometer standard, humidity generator"
+         },
+         {
+            "range":"(10 to 35) % RH",
+            "cmc":"0.99% RH",
+            "comments":"Hygrometer standard, humidity generator"
+         },
+         {
+            "range":"(35 to 80) % RH",
+            "cmc":"1.1% RH",
+            "comments":"Hygrometer standard, humidity generator"
+         },
+         {
+            "range":"(80 to 95) % RH",
+            "cmc":"1.1% RH",
+            "comments":"Hygrometer standard, humidity generator"
+         }
+      ],
+      "Relative Humidity - Measure & Environmental Testing":[
+         {
+            "range":"(0.25 to 10) % RH",
+            "cmc":"0.97% RH",
+            "comments":"EURAMET GUIDE NO.: 20 & IEC 60068-3"
+         },
+         {
+            "range":"(10 to 35) % RH",
+            "cmc":"0.99% RH",
+            "comments":"EURAMET GUIDE NO.: 20 & IEC 60068-3"
+         },
+         {
+            "range":"(35 to 80) % RH",
+            "cmc":"1.1% RH",
+            "comments":"EURAMET GUIDE NO.: 20 & IEC 60068-3"
+         },
+         {
+            "range":"(80 to 95) % RH",
+            "cmc":"1.1% RH",
+            "comments":"EURAMET GUIDE NO.: 20 & IEC 60068-3"
+         }
+      ],
+      "Dew Point - Measuring Equipment At 1 Bar":[
+         {
+            "range":"(-80 to -60) °F",
+            "cmc":"4.4 °F",
+            "comments":"Dew point transmitter"
+         },
+         {
+            "range":"(-60 to -30) °F",
+            "cmc":"4.4 °F",
+            "comments":"Dew point transmitter"
+         },
+         {
+            "range":"(-30 to -20) °F",
+            "cmc":"6.6 °F",
+            "comments":"Dew point transmitter"
+         },
+         {
+            "range":"(-20 to 0) °F",
+            "cmc":"3 °F",
+            "comments":"Dew point transmitter"
+         },
+         {
+            "range":"(-10 to 60) °C",
+            "cmc":"0.83 °C",
+            "comments":"Calculated using temperature & humidity standards."
+         }
+      ]
+   },
+   "Time & Frequency":{
+      "Frequency - Measure":[
+         {
+            "range":"(0 to 300) MHz",
+            "cmc":"0.34 μHz/Hz",
+            "comments":"Frequency counter"
+         }
+      ],
+      "Frequency - Measuring Equipment":[
+         {
+            "range":"Up to 600 MHz",
+            "cmc":"3.1 μHz/Hz",
+            "comments":"Multifunction calibrator with frequency counter"
+         }
+      ],
+      "Time - Measure - Stopwatch & Timing Device":[
+         {
+            "range":"Up to 86 400 s",
+            "cmc":"27 ms + 0.045 μs/s",
+            "comments":"Frequency counter, frequency generator NIST SP-960-12"
+         }
+      ]
+   },
+   "Mechanical Testing":{
+
+   }
+}

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Fixer and Linter Online</title>
+    <style>
+        :root {
+            --primary-color: #ff9d00;
+            --secondary-color: #ff6a00;
+            --background-color: #f5f5f5;
+            --text-color: #333;
+            --border-radius: 12px;
+            --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            overflow: hidden;
+        }
+        header {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        }
+        main {
+            padding: 30px;
+        }
+        .info-panel {
+            background: linear-gradient(135deg, #fff9f0 0%, #fff5e6 100%);
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 0 var(--border-radius) var(--border-radius) 0;
+            box-shadow: var(--box-shadow);
+        }
+        .json-container {
+            display: flex;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+        .textarea-container {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+        }
+        textarea {
+            width: 100%;
+            height: 300px;
+            padding: 15px;
+            border: 1px solid #e0e0e0;
+            border-radius: calc(var(--border-radius) - 4px);
+            font-size: 14px;
+            resize: vertical;
+            transition: all 0.3s ease;
+        }
+        textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(255, 157, 0, 0.2);
+        }
+        .log-container {
+            background: linear-gradient(135deg, #fff9f0 0%, #fff5e6 100%);
+            border: 1px solid #ffe0b2;
+            border-radius: var(--border-radius);
+            padding: 20px;
+            box-shadow: var(--box-shadow);
+        }
+        h2, h3 {
+            color: var(--secondary-color);
+            margin-top: 0;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .repairs-list ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .repairs-list ul ul {
+            padding-left: 20px;
+        }
+        .repairs-list strong {
+            color: var(--secondary-color);
+        }
+        code {
+            background-color: #f0f0f0;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        @media (max-width: 768px) {
+            .json-container {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>JSON Fixer and Linter Online</h1>
+        </header>
+
+        <main>
+            <section class="info-panel">
+                <h2>How to use</h2>
+                <p>Paste malformed JSON in the left textarea and the repaired JSON will be displayed automatically on the right. This tool is particularly useful for testing LLM outputs and fixing JSON anomalies.</p>
+                <h3>Key Features:</h3>
+                <ul>
+                    <li>Auto-detection and repair of a wide range of JSON errors</li>
+                    <li>Support for streaming and infinitely large documents</li>
+                    <li>Compatibility with various LLM output formats</li>
+                    <li>Rich test cases ensuring reliability and accuracy</li>
+                    <li>Contact: <a href="https://github.com/alanslzrr" target="_blank">https://github.com/alanslzrr</a></li>
+                </ul>
+            </section>
+
+            <div class="json-container">
+                <div class="textarea-container">
+                    <h3>Input JSON</h3>
+                    <textarea id="input-json" placeholder="Paste your malformed JSON here..."></textarea>
+                </div>
+
+                <div class="textarea-container">
+                    <h3>Repaired JSON</h3>
+                    <textarea id="output-json" readonly></textarea>
+                    <button id="copy-button" class="copy-button">
+                        <span class="copy-icon">📋</span> Copy
+                    </button>
+                </div>
+            </div>
+
+            <section class="log-container">
+                <h3>Repair actions performed</h3>
+                <textarea id="log-output" readonly></textarea>
+                <div class="repairs-list">
+                    <h4>Supported Repairs:</h4>
+                    <p>This tool is capable of resolving the following JSON issues:</p>
+                    <ul>
+                        <li><strong>Quote Issues</strong>:
+                            <ul>
+                                <li>Add missing quotes around keys.</li>
+                                <li>Replace single quotes with double quotes.</li>
+                                <li>Replace special quote characters like <code>"..."</code> with regular double quotes.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Escape Characters</strong>:
+                            <ul>
+                                <li>Add missing escape characters.</li>
+                                <li>Strip escape characters from an escaped string like <code>{"stringified": "content"}</code>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Syntax & Structure</strong>:
+                            <ul>
+                                <li>Add missing commas and closing brackets.</li>
+                                <li>Strip trailing commas.</li>
+                                <li>Strip comments such as <code>/* ... */</code> and <code>// ...</code>.</li>
+                                <li>Strip JSONP notation like <code>callback({ ... })</code>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Special Characters & Values</strong>:
+                            <ul>
+                                <li>Replace special white space characters with regular spaces.</li>
+                                <li>Replace Python constants (<code>None</code>, <code>True</code>, and <code>False</code>) with their respective JSON values (<code>null</code>, <code>true</code>, and <code>false</code>).</li>
+                                <li>Strip MongoDB data types like <code>NumberLong(2)</code> and <code>ISODate("2012-12-19T06:01:17.171Z")</code>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>String Concatenation</strong>:
+                            <ul>
+                                <li>Concatenate broken strings like <code>"long text" + "more text on next line"</code>.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Transformations</strong>:
+                            <ul>
+                                <li>Turn newline delimited JSON entries into a valid JSON array. For instance:
+<pre>
+{ "id": 1, "name": "John" }
+{ "id": 2, "name": "Sarah" }
+</pre>
+                                will be transformed to:
+<pre>
+[
+  { "id": 1, "name": "John" },
+  { "id": 2, "name": "Sarah" }
+]
+</pre>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
+</body>
+</html>
