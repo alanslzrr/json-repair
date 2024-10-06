@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
-from src.json_repair import loads
+from backend.src.json_repair import loads
 
 app = Flask(__name__, 
     static_folder='../frontend/static', 
